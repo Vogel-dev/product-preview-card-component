@@ -117,3 +117,30 @@ body {
 img:not(.product-img):hover {
   transform: scale(120%);
 }
+
+@media screen and (max-width: 768px) {
+  .product {
+    flex-direction: column;
+  }
+  .product-bg {
+    height: 30vh;
+  }
+  .product-img {
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  .product-content {
+    width: 40vh;
+  }
+  .product-name {
+    font-size: 1.9rem;
+    line-height: 2.05rem;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .product-price {
+    margin: 1rem 0rem 1rem 0rem;
+    gap: 1.5rem;
+  }
+  .product-btn {
+    height: 3.25rem;
+  }
+}
